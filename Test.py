@@ -5,8 +5,8 @@ from flask import request, jsonify
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
-HOST = ''
-DATABASE = ''
+HOST = '<DB Ip>'
+DATABASE = '<DATABASE Name>'
 USER = "demo"
 PASSWORD = "Password@1"
 

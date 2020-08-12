@@ -4,6 +4,7 @@ Mor more information on build :- https://angular.io/guide/build
 
 For deployment : https://angular.io/guide/deployment
 
+
  $ sudo apt-get update
  $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
  $ sudo apt-get install nodejs

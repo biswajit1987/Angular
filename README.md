@@ -65,7 +65,7 @@ For deployment : https://angular.io/guide/deployment
 
  $ sudo chmod -R 777 App #Give full permission to App Folder
  
- #Note** :- Restart the server
+ #Note** :- Restart the VM
  
  ~/App/server$ json-server --watch db.json -H <http-server generated IP '172.31.25.851' > --routes routes.json
 

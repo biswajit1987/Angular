@@ -25,7 +25,7 @@ For deployment : https://angular.io/guide/deployment
  
  $ cd ~/App/Angular
  
- $ sed -i 's/localhost/<server IP>/g' main.475e8a0b11d99136261f.js
+ $ sed -i 's/localhost/server IP/g' main.475e8a0b11d99136261f.js
  
  $ http-server
  

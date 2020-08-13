@@ -26,6 +26,12 @@ For deployment : https://angular.io/guide/deployment
  $ cd ~/App/Angular
  
  $ sed -i 's/localhost/<server IP>/g' main.475e8a0b11d99136261f.js
+	
+	OR
+	
+$ sudo vi main.475e8a0b11d99136261f.js	
+	http://localhost:3000  replace with http://<IP like 18.191.251.136>:3000
+ 
  
  $ http-server
  
@@ -68,4 +74,4 @@ For deployment : https://angular.io/guide/deployment
  #Note** :- Restart the server
  
  
- ~/App/server$ json-server --watch db.json -H <http-server generated IP '172.31.25.851' > --routes routes.json
+ ~/App/server$ json-server --watch db.json -H <server IP like 172.31.25.851 > --routes routes.json
